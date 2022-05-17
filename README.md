@@ -23,4 +23,4 @@ https://code.earthengine.google.com/?accept_repo=users/lasalvato/MapTimeDavis_in
     My tutorial is an abriddged and adapted version of these two videos. They are really good, and a bit more in depth than my workshop.
 2. Earth Engine Guides: https://developers.google.com/earth-engine/guides. These are well documented!
 3. Data catalog: https://developers.google.com/earth-engine/guides
-4. UC Davis earth-engine slack chanel
+4. UC Davis earth-engine slack channel
