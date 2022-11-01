@@ -1,5 +1,5 @@
 # Intro to Google Earth Engine
-#### Intro to GEE workshop for MapTime Davis 5/17/2022
+#### Intro to GEE workshop for MapTime Davis
 
 
 ## Initial Setup
@@ -18,9 +18,11 @@ https://code.earthengine.google.com/?accept_repo=users/lasalvato/MapTimeDavis_in
 
 ## Resources for learning more:
 1. Youtube vidoes: 
-    part 1: https://www.youtube.com/watch?v=I-wFYm4Hnhg&t=1637s
-    part 2: https://www.youtube.com/watch?v=_Ff8_dME2Gc
-    My tutorial is an abriddged and adapted version of these two videos. They are really good, and a bit more in depth than my workshop.
+    *part 1: https://www.youtube.com/watch?v=I-wFYm4Hnhg&t=1637s
+    *part 2: https://www.youtube.com/watch?v=_Ff8_dME2Gc
+    *My tutorial is an abriddged and adapted version of these two videos. They are really good, and a bit more in depth than my workshop.
 2. Earth Engine Guides: https://developers.google.com/earth-engine/guides. These are well documented!
-3. Data catalog: https://developers.google.com/earth-engine/guides
+3. Data catalog: https://developers.google.com/earth-engine/datasets
 4. UC Davis earth-engine slack channel
+5. Geospatial list serv <geospatial@ucdavis.edu> This is a quiet but effective list. Great for posting code questions, getting advice on geospatial projects, and even finding jobs.
+6. New GEE text book: https://www.eefabook.org/go-to-the-book.html
