@@ -26,3 +26,4 @@ https://code.earthengine.google.com/?accept_repo=users/lasalvato/MapTimeDavis_in
 4. UC Davis earth-engine slack channel
 5. Geospatial list serv <geospatial@ucdavis.edu> This is a quiet but effective list. Great for posting code questions, getting advice on geospatial projects, and even finding jobs.
 6. New GEE text book: https://www.eefabook.org/go-to-the-book.html
+7. Example apps: https://www.earthengine.app/
