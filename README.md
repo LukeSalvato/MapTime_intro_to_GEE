@@ -4,6 +4,7 @@ Instructor: Luke Salvato
 _October 25, 2022_  
 
 
+[![ ](feature.png)](https://www.youtube.com/watch?v=0cYm4CpU2dg "Intro to GEE")
 
 ## Initial Setup
 1. Get a google account (accounts.google.com)
