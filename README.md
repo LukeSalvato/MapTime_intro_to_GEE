@@ -29,7 +29,7 @@ https://code.earthengine.google.com/?accept_repo=users/lasalvato/MapTimeDavis_in
 
 
 ## Video  
-Click the screen shot to access the video recording to do the workshop at your own pace:  
+Click below to access the video recording:  
 [![ ](feature.png)](https://www.youtube.com/watch?v=0cYm4CpU2dg "Intro to GEE")
   
   
