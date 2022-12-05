@@ -1,0 +1,26 @@
+//////////////// Constants ////////////////
+var RGB_VIS = {min: 0, max: 0.3, gamma: 1.5, bands: ['B4', 'B3', 'B2']};
+
+
+
+
+//////////////// Functions ////////////////
+function addNDVI(img) {
+  var ndvi = img.normalizedDifference(['B5', 'B4']); // Landsat 8
+  return img.addBands(ndvi.rename('ndvi')); //adds our new band directly back to the image
+}
+
+   
+//////////////// Analysis ////////////////
+var filtered = L8.filterDate('2016-01-01', '2016-11-30'); 
+
+// now map() our function across the image collection
+var with_ndvi = filtered.map(addNDVI); //note this is the mathematical definition of 'map' ie apply this function across a set of things. it's not actuall cartography!
+
+
+//////////////// User Interface ////////////////
+Map.addLayer(with_ndvi.median(), RGB_VIS, 'RGB'); //.median() specifies the median image. the default is the plot the most recent in the collection
+Map.addLayer(with_ndvi.median(), {bands:'ndvi', min:0, max:1, palette:'black,lightgreen'}, 'NDVI');
+
+//make a time series plot with code
+print(ui.Chart.image.series(with_ndvi.select('ndvi'), geometry));
