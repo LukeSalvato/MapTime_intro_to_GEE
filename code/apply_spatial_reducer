@@ -1,0 +1,30 @@
+//////////////// Analysis ////////////////
+var slope = ee.Terrain.slope(srtm);
+
+// Statistics for an area //
+//avg slope inside of a geometry
+var slopeDict = slope.reduceRegion({
+  reducer: ee.Reducer.mean(),
+  geometry: geometry,
+  scale: 30
+});
+print('slopeDict', slopeDict);
+
+
+// how much water is in the geometry (in m squared)?
+//this is a more complex 'reduction' - sum areas inside a region
+var waterDict = water
+    .select('occurrence')//select a band
+    .gt(90) //filter to where occurance is greater than 90%
+    .multiply(ee.Image.pixelArea())// multiply by the number of pixels where occurance is greater than 90%
+    .reduceRegion({
+      reducer: ee.Reducer.sum(),  // and then reduce by summing all the pixels
+      geometry: geometry,
+      scale: 30
+    });
+print('waterDict', waterDict);
+
+//////////////// User Interface ////////////////
+Map.addLayer(srtm, {min:0, max:3000}, 'srtm');
+Map.addLayer(slope, {min:0, max:45}, 'slope');
+Map.addLayer(water, {bands:'occurrence', min:0, max:100, palette:'lightblue,blue'}, 'occurrence');
