@@ -1,24 +1,38 @@
 # Intro to Google Earth Engine
 #### Intro to GEE workshop for MapTime Davis
-Instructor: Luke Salvato  
-_October 25, 2022_  
 
+  
+  
+I teach this workshop for MapTime Davis every few months. It is designed for first-time or beginner Google Earth Engine Users looking to gain familiariry with the GEE interface, learn how to access remote sensing data in the cloud, and experience the power of computing in GEE. 
+  
+By the end of this workshop you will have visualized maps made in GEE, computed slope for the entire planet, and computed seasonal NDVI (a measure of plant greenness/productivity) for the entire planet!!   
+  
+Objectives of this workshop: feel comfortable starting your own project in GEE and gain access to the GEE community where you can find help and mentorship.  
 
-[![ ](feature.png)](https://www.youtube.com/watch?v=0cYm4CpU2dg "Intro to GEE")
+  
 
 ## Initial Setup
 1. Get a google account (accounts.google.com)
 
-2. Register for earth engine at earth engine.google.com/signup
+2. Register for earth engine (earthengine.google.com/signup) - You need to register to access GEE
 
 3. Be careful about what google account you use when you log in, this can lead to confusion! Consider opening with an incognito window
 
 
 
 
-## Tutorial scripts:
+## Tutorial scripts:  
+Once you have registered for GEE, you can click this link to get reader access to the scripts used in this tutorial.
 https://code.earthengine.google.com/?accept_repo=users/lasalvato/MapTimeDavis_intro_to_GEE
 
+
+
+
+## Video  
+Click the screen shot to access the video recording to do the workshop at your own pace:  
+[![ ](feature.png)](https://www.youtube.com/watch?v=0cYm4CpU2dg "Intro to GEE")
+  
+  
 
 ## Resources for learning more:
 1. Youtube videos: 
